@@ -1,4 +1,4 @@
-# 🌟 NumeraX — Number System Converter  
+# NumeraX — Number System Converter  
 ### *(Assembly Language | COAL Course Project)*
 
 NumeraX is an educational **Number System Converter** built entirely in **MASM Assembly** using the **Irvine32** library.  
@@ -7,9 +7,9 @@ It helps students understand and practice number system conversions interactivel
 This project also includes **Quiz Mode**, **Speed Test Mode**, and **Two’s Complement Representation**, making it more than just a calculator — it is a complete **learning tool** for COAL students.
 
 
-## 🚀 Features
+# Features
 
-### 🔢 **Number System Conversions**
+### **Number System Conversions**
 - Decimal → Binary  
 - Decimal → Octal  
 - Decimal → Hexadecimal  
@@ -20,29 +20,29 @@ This project also includes **Quiz Mode**, **Speed Test Mode**, and **Two’s Com
   - Octal ↔ Hexadecimal  
 
 
-## ⚙️ Advanced Features
+## Advanced Features
 
-### ❗ **Error Handling**
+### **Error Handling**
 - Detects invalid digits  
   *(e.g., entering `2` for a binary number)*
 
-### 🧮 **Two’s Complement Representation**
+### **Two’s Complement Representation**
 - Shows **signed** and **unsigned** interpretations of binary values
 
-### 🕒 **Conversion History** *(Optional)*
+### **Conversion History** *(Optional)*
 - Stores last few conversions  
 - Displays them on request  
 
 
-## 🎮 Interactive Learning Modes
+## Interactive Learning Modes
 
-### 1️⃣ **Quiz Mode**
+### **Quiz Mode**
 - Generates random conversion questions  
 - Takes user input  
 - Validates answer  
 - Displays score  
 
-### 2️⃣ **Speed Test Mode**
+### **Speed Test Mode**
 - User chooses **5 or 10 questions**  
 - Timer starts & ends automatically  
 - Shows:
@@ -61,7 +61,7 @@ This project also includes **Quiz Mode**, **Speed Test Mode**, and **Two’s Com
 | OS        | Windows                |
 
 
-## 📁 Project Structure
+## Project Structure
 NumeraX/
 │
 ├── main.asm ; Main menu + program controller
@@ -76,7 +76,7 @@ NumeraX/
 └── /Include/Irvine32.inc ; Irvine32 library
 
 
-## 👥 Team Members
+## Team Members
 
 | Role | Name | Roll No. |
 |------|-----------------------|----------|
