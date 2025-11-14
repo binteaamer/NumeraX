@@ -1,70 +1,89 @@
-NumeraX — Number System Converter (Assembly | COAL Project)
+# 🌟 NumeraX — Number System Converter  
+### *(Assembly Language | COAL Course Project)*
 
-NumeraX is an educational Number System Converter built entirely in MASM Assembly using the Irvine32 library.
-It helps students understand and practice number system conversions interactively, making concepts of decimal, binary, octal, and hexadecimal easier to learn.
+NumeraX is an educational **Number System Converter** built entirely in **MASM Assembly** using the **Irvine32** library.  
+It helps students understand and practice number system conversions interactively, making concepts of **decimal, binary, octal, and hexadecimal** easier to learn.
 
-This project also includes Quiz Mode, Speed Test Mode, and Two’s Complement representation, making it much more than a simple calculator — it is a learning tool.
+This project also includes **Quiz Mode**, **Speed Test Mode**, and **Two’s Complement Representation**, making it more than just a calculator — it is a complete **learning tool** for COAL students.
 
-🚀 Features
-🔢 Number System Conversions
 
-Decimal → Binary
-Decimal → Octal
-Decimal → Hexadecimal
-Binary / Octal / Hexadecimal → Decimal
-Direct Conversions:
-Binary ↔ Octal
-Binary ↔ Hexadecimal
-Octal ↔ Hexadecimal
+## 🚀 Features
 
-⚙️ Advanced Features
-❗ Error Handling
-Detects invalid digits (e.g., entering 2 for a binary value)
+### 🔢 **Number System Conversions**
+- Decimal → Binary  
+- Decimal → Octal  
+- Decimal → Hexadecimal  
+- Binary / Octal / Hexadecimal → Decimal  
+- Direct Conversions:
+  - Binary ↔ Octal  
+  - Binary ↔ Hexadecimal  
+  - Octal ↔ Hexadecimal  
 
-🧮 Two’s Complement Representation
-Shows signed and unsigned interpretations of binary numbers
 
-🕒 Conversion History (optional feature)
-Stores last few conversions and displays them on command
+## ⚙️ Advanced Features
 
-🎮 Interactive Learning Modes
-1️⃣ Quiz Mode
+### ❗ **Error Handling**
+- Detects invalid digits  
+  *(e.g., entering `2` for a binary number)*
 
-Random conversion questions
-User enters answer
-Program checks correctness
-Shows total score
+### 🧮 **Two’s Complement Representation**
+- Shows **signed** and **unsigned** interpretations of binary values
 
-2️⃣ Speed Test Mode
+### 🕒 **Conversion History** *(Optional)*
+- Stores last few conversions  
+- Displays them on request  
 
-User selects number of questions (5 or 10)
-Timer starts & ends automatically
-Shows correct answers + total time
 
-🛠 Tech Stack
-Component	Technology
-Language	MASM x86 Assembly
-Library	Irvine32
-IDE	Visual Studio
-Debugger	Visual Studio Debugger
-OS	Windows
+## 🎮 Interactive Learning Modes
 
-Project Structure
+### 1️⃣ **Quiz Mode**
+- Generates random conversion questions  
+- Takes user input  
+- Validates answer  
+- Displays score  
+
+### 2️⃣ **Speed Test Mode**
+- User chooses **5 or 10 questions**  
+- Timer starts & ends automatically  
+- Shows:
+  - Number of correct answers  
+  - Total time taken  
+
+
+## 🛠 Tech Stack
+
+| Component  | Technology             |
+|-----------|------------------------|
+| Language  | MASM x86 Assembly      |
+| Library   | Irvine32               |
+| IDE       | Visual Studio          |
+| Debugger  | Visual Studio Debugger |
+| OS        | Windows                |
+
+
+## 📁 Project Structure
 NumeraX/
 │
-├── main.asm              ; Main menu + program controller
-├── convert_decimal.asm   ; Decimal → Binary/Octal/Hex functions
-├── convert_to_decimal.asm; Binary/Octal/Hex → Decimal
-├── convert_direct.asm    ; Binary ↔ Octal/Hexadecimal
-├── twos_complement.asm   ; Signed/Unsigned binary interpreter
-├── quiz.asm              ; Quiz Mode
-├── speed_test.asm        ; Speed Test Mode
-├── utils.asm             ; String handling, validation, timing
-├── README.md             ; Project documentation
-└── /Include/Irvine32.inc ; Irvine library
+├── main.asm ; Main menu + program controller
+├── convert_decimal.asm ; Decimal → Binary/Octal/Hex conversions
+├── convert_to_decimal.asm ; Binary/Octal/Hex → Decimal
+├── convert_direct.asm ; Binary ↔ Octal/Hexadecimal conversions
+├── twos_complement.asm ; Signed/Unsigned binary interpreter
+├── quiz.asm ; Quiz Mode functionality
+├── speed_test.asm ; Speed Test Mode functionality
+├── utils.asm ; Validation, string handling, timing
+├── README.md ; Project documentation
+└── /Include/Irvine32.inc ; Irvine32 library
 
 
-👥 Team Members
-Leader:  Abeeha Binte Aamer 24k0940
-Member 1:  Aamna Rizwan 24k0695
-Member 2: Laiba Khan 24k0644
+## 👥 Team Members
+
+| Role | Name | Roll No. |
+|------|-----------------------|----------|
+| **Leader** | Abeeha Binte Aamer | 24k0940 |
+| Member | Aamna Rizwan | 24k0695 |
+| Member | Laiba Khan | 24k0644 |
+
+
+
+
