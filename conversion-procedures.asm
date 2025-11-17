@@ -3,9 +3,10 @@
 ; -----------------------------
 DecToBin PROC
     ; Prompt for decimal number
-    mov edx, OFFSET choice
+    mov edx, OFFSET choice     ;Change this to print a line that shows what operation the user selected instead of just the option number
+                                ;Now a print "Enter the number: "
     call WriteString
-    call ReadInt       ; EAX = decimal number
+    call ReadDec       ; EAX = decimal number
 
     ; Convert decimal to binary
     mov ecx, 32        ; 32 bits
