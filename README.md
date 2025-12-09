@@ -71,21 +71,23 @@ This project also includes **Quiz Mode**, **Speed Test Mode**, and **Two’s Com
 
 ## Project Structure
 NumeraX/
-│
+
 ├── main.asm ; Main menu + program controller
+
 ├── convert_decimal.asm ; Decimal → Binary/Octal/Hex conversions
+
 ├── convert_to_decimal.asm ; Binary/Octal/Hex → Decimal
+
 ├── convert_direct.asm ; Binary ↔ Octal/Hexadecimal conversions
+
 ├── twos_complement.asm ; Signed/Unsigned binary interpreter
+
 ├── quiz.asm ; Quiz Mode functionality
+
 ├── speed_test.asm ; Speed Test Mode functionality
+
 ├── utils.asm ; Validation, string handling, timing
+
 ├── README.md ; Project documentation
+
 └── /Include/Irvine32.inc ; Irvine32 library
-
-
-
-
-
-
-
